@@ -3704,5 +3704,260 @@
       "2025-04-11T21:14:23.0808046Z"
     ],
     "timestamp": "2025-04-11T21:14:23.110Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:26:28.8352851Z",
+      "session_start",
+      "990bd0da-cefa-4b57-9707-c7aa60ae4713",
+      "2025-04-11T21:26:28.8402722Z"
+    ],
+    "timestamp": "2025-04-11T21:26:28.891Z"
+  },
+  {
+    "keys": [
+      "timeWhenUsed",
+      "timesUsed",
+      "sliderValue",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:26:31.6914035Z",
+      "1",
+      "0.2802969",
+      "buttonClicked",
+      "343b51ce-8a62-453f-b4d6-c1f61685cb88",
+      "2025-04-11T21:26:31.6914035Z"
+    ],
+    "timestamp": "2025-04-11T21:26:31.710Z"
+  },
+  {
+    "keys": [
+      "timeWhenUsed",
+      "timesUsed",
+      "sliderValue",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:26:38.6900984Z",
+      "1",
+      "0.2802969",
+      "buttonClicked",
+      "d978e3f2-2165-4fd1-a8fd-7b36eb794670",
+      "2025-04-11T21:26:38.6900984Z"
+    ],
+    "timestamp": "2025-04-11T21:26:38.709Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "9.898064",
+      "2025-04-11T21:26:39.9031155Z",
+      "session_end",
+      "a6a0854b-5120-48a7-b490-b7fb66e1b433",
+      "2025-04-11T21:26:39.9031155Z"
+    ],
+    "timestamp": "2025-04-11T21:26:39.925Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:26:45.3809673Z",
+      "session_start",
+      "3e547b95-844c-4d65-b483-064a1ad15a0d",
+      "2025-04-11T21:26:45.3869426Z"
+    ],
+    "timestamp": "2025-04-11T21:26:45.415Z"
+  },
+  {
+    "keys": [
+      "timeWhenUsed",
+      "timesUsed",
+      "sliderValue",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:26:57.8807308Z",
+      "1",
+      "0.2802969",
+      "buttonClicked",
+      "6a22dbd9-391c-4948-9505-0d1e4a53dd53",
+      "2025-04-11T21:26:57.8807308Z"
+    ],
+    "timestamp": "2025-04-11T21:26:57.900Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "12.53425",
+      "2025-04-11T21:26:59.0393249Z",
+      "session_end",
+      "6f3956ef-78ca-4012-b77a-1e749d6bab2b",
+      "2025-04-11T21:26:59.0393249Z"
+    ],
+    "timestamp": "2025-04-11T21:26:59.082Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:27:04.5554901Z",
+      "session_start",
+      "51027e4b-8aaf-4c8a-81ad-955fca384bc6",
+      "2025-04-11T21:27:04.5614732Z"
+    ],
+    "timestamp": "2025-04-11T21:27:04.612Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2.373455",
+      "2025-04-11T21:27:08.0814276Z",
+      "session_end",
+      "658f2c7a-5c1b-4904-97e9-a46f08b499ff",
+      "2025-04-11T21:27:08.0814276Z"
+    ],
+    "timestamp": "2025-04-11T21:27:08.101Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:32:03.2490198Z",
+      "session_start",
+      "f9537ca1-ee0f-419c-a80a-11b5148167f1",
+      "2025-04-11T21:32:03.2529979Z"
+    ],
+    "timestamp": "2025-04-11T21:32:03.281Z"
+  },
+  {
+    "keys": [
+      "timeWhenUsed",
+      "timesUsed",
+      "sliderValue",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:32:43.9865496Z",
+      "1",
+      "0.2802969",
+      "buttonClicked",
+      "f623edc4-bd0c-4fc9-ac75-5df80731d7f0",
+      "2025-04-11T21:32:43.9865496Z"
+    ],
+    "timestamp": "2025-04-11T21:32:44.005Z"
+  },
+  {
+    "keys": [
+      "timeWhenUsed",
+      "timesUsed",
+      "sliderValue",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:32:46.2765475Z",
+      "30",
+      "0.8826571",
+      "buttonClicked",
+      "b0b2da2d-6594-4cd4-a368-898787ddffe3",
+      "2025-04-11T21:32:46.2765475Z"
+    ],
+    "timestamp": "2025-04-11T21:32:46.295Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "43.60583",
+      "2025-04-11T21:32:48.0147523Z",
+      "session_end",
+      "c39db4fa-ae7f-4719-bf14-f600cec87732",
+      "2025-04-11T21:32:48.0147523Z"
+    ],
+    "timestamp": "2025-04-11T21:32:48.037Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-11T21:33:04.7901653Z",
+      "session_start",
+      "2ea991a9-0279-4797-9494-19e3fd3e0150",
+      "2025-04-11T21:33:04.7946837Z"
+    ],
+    "timestamp": "2025-04-11T21:33:04.822Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "sessionId",
+      "deviceTime"
+    ],
+    "values": [
+      "1.48617",
+      "2025-04-11T21:33:07.3377139Z",
+      "session_end",
+      "6681c523-c41b-4b96-8938-f5bded8ebab3",
+      "2025-04-11T21:33:07.3377139Z"
+    ],
+    "timestamp": "2025-04-11T21:33:07.359Z"
   }
 ]

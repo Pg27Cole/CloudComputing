@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Net.Http;
 using System.Text;
 using TMPro;
 using UnityEngine;
@@ -8,7 +11,6 @@ using UnityEngine.Networking;
 public class TelemetryManager : MonoBehaviour
 {
     [SerializeField] BackendConfig serverConfig;
-    [SerializeField] TextMeshProUGUI usernameTextBox;
 
     public static TelemetryManager Instance { get; private set; }
 
@@ -39,7 +41,7 @@ public class TelemetryManager : MonoBehaviour
         }
 
         parameters["eventName"] = eventName;
-        parameters["user"] = usernameTextBox.text;
+        parameters["user"] = PlayerPrefs.GetString("UserName");
         parameters["deviceTime"] = System.DateTime.UtcNow.ToString("O");
 
         eventQueue.Enqueue(parameters);
@@ -58,6 +60,7 @@ public class TelemetryManager : MonoBehaviour
         {
             Dictionary<string, object> currentEvent = eventQueue.Dequeue();
             string payload = JsonUtility.ToJson(new SerializationWrapper(currentEvent));
+            SendToLocal(currentEvent, payload);
 
             using (UnityWebRequest request = new UnityWebRequest(serverConfig.telemetryEndpoint, "POST"))
             {
@@ -66,7 +69,6 @@ public class TelemetryManager : MonoBehaviour
                 request.downloadHandler = new DownloadHandlerBuffer();
 
                 request.SetRequestHeader("Content-Type", "application/json");
-                // TODO: add bearer token --- ex. "Bearer: 37adfba48qadbadfm"
 
                 yield return request.SendWebRequest();
 
@@ -85,6 +87,25 @@ public class TelemetryManager : MonoBehaviour
         }
 
         isSending = false;
+    }
+
+    private void SendToLocal(Dictionary<string, object> currentEvent, string content)
+    {
+        string path = Path.Combine(Application.persistentDataPath, PlayerPrefs.GetString("UserName") + "localEvents.json");
+        if(File.Exists(path))
+        {
+            using (StreamWriter sw = File.AppendText(path))
+            {
+                sw.WriteLine($"{content}, \n");
+                sw.Close();
+                Debug.Log($"Added to pre-existing local telemetry data file at {path}");
+            }
+        }
+        else
+        {
+            File.WriteAllText(path, content);
+            Debug.Log("New file created to store local telemetry data");
+        }
     }
 
     [System.Serializable]

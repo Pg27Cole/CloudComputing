@@ -765,5 +765,432 @@
       "2025-04-17T02:38:37.1670380Z"
     ],
     "timestamp": "2025-04-17T02:38:37.188Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T20:26:25.5539916Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T20:26:25.5684987Z"
+    ],
+    "timestamp": "2025-04-17T20:26:25.579Z"
+  },
+  {
+    "keys": [
+      "timesUsed",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2",
+      "LogSeedChanged",
+      "asdf​",
+      "2025-04-17T20:27:07.3759688Z"
+    ],
+    "timestamp": "2025-04-17T20:27:07.396Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "11.82063",
+      "2025-04-17T20:27:11.2496382Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T20:27:11.2496382Z"
+    ],
+    "timestamp": "2025-04-17T20:27:11.270Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T20:27:28.3646584Z",
+      "session_start",
+      "qwer​",
+      "2025-04-17T20:27:28.3696428Z"
+    ],
+    "timestamp": "2025-04-17T20:27:28.377Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2.765508",
+      "2025-04-17T20:27:31.2118737Z",
+      "session_end",
+      "qwer​",
+      "2025-04-17T20:27:31.2128093Z"
+    ],
+    "timestamp": "2025-04-17T20:27:31.235Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:21:11.8934993Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:21:11.8982260Z"
+    ],
+    "timestamp": "2025-04-17T21:21:11.904Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "12.97286",
+      "2025-04-17T21:21:24.9649364Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T21:21:24.9649364Z"
+    ],
+    "timestamp": "2025-04-17T21:21:24.985Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:30:21.1496092Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:30:21.1545956Z"
+    ],
+    "timestamp": "2025-04-17T21:30:21.161Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "3.524298",
+      "2025-04-17T21:30:47.9983570Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T21:30:47.9983570Z"
+    ],
+    "timestamp": "2025-04-17T21:30:48.033Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:37:56.3880829Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:37:56.3920728Z"
+    ],
+    "timestamp": "2025-04-17T21:37:56.409Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:38:51.1145397Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:38:51.1233072Z"
+    ],
+    "timestamp": "2025-04-17T21:38:51.139Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:39:19.9636899Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:39:19.9680340Z"
+    ],
+    "timestamp": "2025-04-17T21:39:19.976Z"
+  },
+  {
+    "keys": [
+      "timesUsed",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "1",
+      "LogSeedChanged",
+      "asdf​",
+      "2025-04-17T21:39:23.9345618Z"
+    ],
+    "timestamp": "2025-04-17T21:39:23.953Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "7.52939",
+      "2025-04-17T21:39:27.5832399Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T21:39:27.5832399Z"
+    ],
+    "timestamp": "2025-04-17T21:39:27.608Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:52:54.3876409Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:52:54.3916360Z"
+    ],
+    "timestamp": "2025-04-17T21:52:54.413Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "6.944262",
+      "2025-04-17T21:53:01.4663120Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T21:53:01.4663120Z"
+    ],
+    "timestamp": "2025-04-17T21:53:01.487Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:53:08.8723077Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:53:08.8763213Z"
+    ],
+    "timestamp": "2025-04-17T21:53:08.894Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "21.39753",
+      "2025-04-17T21:53:30.4203422Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T21:53:30.4203422Z"
+    ],
+    "timestamp": "2025-04-17T21:53:30.443Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:56:21.5797500Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:56:21.5847372Z"
+    ],
+    "timestamp": "2025-04-17T21:56:21.608Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2.465764",
+      "2025-04-17T21:56:24.1733941Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T21:56:24.1733941Z"
+    ],
+    "timestamp": "2025-04-17T21:56:24.196Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:56:56.6610646Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:56:56.6645625Z"
+    ],
+    "timestamp": "2025-04-17T21:56:56.670Z"
+  },
+  {
+    "keys": [
+      "timesUsed",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "1",
+      "LogSeedChanged",
+      "asdf​",
+      "2025-04-17T21:57:05.7837539Z"
+    ],
+    "timestamp": "2025-04-17T21:57:05.801Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "11.42314",
+      "2025-04-17T21:57:08.1735205Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T21:57:08.1735205Z"
+    ],
+    "timestamp": "2025-04-17T21:57:08.194Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:58:51.2223129Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:58:51.2263132Z"
+    ],
+    "timestamp": "2025-04-17T21:58:51.234Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "1.414022",
+      "2025-04-17T21:58:52.7391201Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T21:58:52.7391201Z"
+    ],
+    "timestamp": "2025-04-17T21:58:52.759Z"
+  },
+  {
+    "keys": [
+      "startTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2025-04-17T21:58:59.8788280Z",
+      "session_start",
+      "asdf​",
+      "2025-04-17T21:58:59.8858086Z"
+    ],
+    "timestamp": "2025-04-17T21:58:59.919Z"
+  },
+  {
+    "keys": [
+      "durationSeconds",
+      "endTime",
+      "eventName",
+      "user",
+      "deviceTime"
+    ],
+    "values": [
+      "2.203394",
+      "2025-04-17T21:59:02.2398082Z",
+      "session_end",
+      "asdf​",
+      "2025-04-17T21:59:02.2398082Z"
+    ],
+    "timestamp": "2025-04-17T21:59:02.264Z"
   }
 ]

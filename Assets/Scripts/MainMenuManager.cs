@@ -2,6 +2,8 @@
 using TMPro;
 using System;
 using UnityEngine.SceneManagement;
+using System.IO;
+using Unity.VisualScripting.Antlr3.Runtime;
 public class MainMenuManager : MonoBehaviour
 {
     [Header("Sign Up Fields")]
@@ -57,6 +59,8 @@ public class MainMenuManager : MonoBehaviour
                 return;
             }
             SessionManager.Instance.SetAuthToken(signInResponse.token);
+            string path = Path.Combine(Application.persistentDataPath, "token.txt");
+            File.WriteAllText(path, signInResponse.token);
             Debug.Log("Login Successful" + signInResponse.token);
             SceneManager.LoadScene(gameSceneName);  
         }

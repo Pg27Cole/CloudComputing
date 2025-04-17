@@ -1,13 +1,30 @@
 # ASSIGNMENT ONE CLOUD COMPUTING
+
+## **NOTE: I will send TA Spencer the .env file through discord**
+
 #### Raf housing Saving
 
 ## How to setup saving 
-ensure you have run the command 'npm start' using the command line within the backend directory
-once this command is run you should see a console message confirming that the server is running on port 3000
+Paste the provided .env file into the raf_housing Server backend directory
+
+Ensure you have run the command 'npm start' using the command line within the backend directory. Once this command is run you should see a console message confirming that the server is running on port 3000
 
 ## When is data saved
-data is saved both locally and to the server when the player clicks the "save" button
+Data is saved both locally and to the server when the player clicks the "save" button
 
 ## Where is the data saved
-the local save data is saved to the persistent data path.
-the simulated cloud saves are saved in the "Raf_housing Server Backend" folder
+The local save data is saved to the persistent data path. the simulated cloud saves are saved in the "Raf_housing Server Backend" folder
+
+# ASSIGNMENT TWO CLOUD COMPUTING
+#### Raf house telemetry
+
+## How to setup telemetry
+Paste the provided .env file into the raf_housing Server backend directory
+
+Ensure you run the command npm start using the command line within the backend directory. Once this command has been run you should see a console message confirming that the server is running on port 3000
+
+## When is telemetry data saved
+Data is saved both locally and to the server when the player clicks the "save" button
+
+## Where is the telemetry data saved
+The simulated cloud saves are saved in the "Raf_housing Server Backend" folder under the name "events.json"

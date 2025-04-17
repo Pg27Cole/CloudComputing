@@ -15,17 +15,16 @@ public class HouseRotateLogger : MonoBehaviour
             slider.onValueChanged.AddListener((_) => { 
                 if ((DateTime.UtcNow - lastTimeChanged).Seconds <= 0.5f) return;
                 _timesUsed++; 
+                lastTimeChanged = DateTime.UtcNow;
             });
         }
     }
 
     public void SendData()
     {
-        TelemetryManager.Instance.LogEvent("buttonClicked", new System.Collections.Generic.Dictionary<string, object>
+        TelemetryManager.Instance.LogEvent("LogSeedChanged", new System.Collections.Generic.Dictionary<string, object>
         {
-            {"timeWhenUsed", DateTime.UtcNow.ToString("O")},
             {"timesUsed",  _timesUsed},
-            {"sliderValue", slider.value}
         });
     }
 }

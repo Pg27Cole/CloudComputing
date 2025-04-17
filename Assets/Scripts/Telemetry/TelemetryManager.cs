@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 
 public class TelemetryManager : MonoBehaviour
 {
     [SerializeField] BackendConfig serverConfig;
+    [SerializeField] TextMeshProUGUI usernameTextBox;
 
     public static TelemetryManager Instance { get; private set; }
 
@@ -37,7 +39,7 @@ public class TelemetryManager : MonoBehaviour
         }
 
         parameters["eventName"] = eventName;
-        parameters["sessionId"] = System.Guid.NewGuid().ToString();
+        parameters["user"] = usernameTextBox.text;
         parameters["deviceTime"] = System.DateTime.UtcNow.ToString("O");
 
         eventQueue.Enqueue(parameters);

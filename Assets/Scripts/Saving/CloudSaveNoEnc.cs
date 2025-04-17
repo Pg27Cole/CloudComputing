@@ -5,7 +5,6 @@ using UnityEngine.Networking;
 public class CloudSaveNoEnc : MonoBehaviour
 {
     public LocalSaveManager localSaveManager;
-
     public BackendConfig BackendConfig;
 
     public void SyncWithCloud()

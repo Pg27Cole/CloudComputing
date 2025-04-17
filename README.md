@@ -16,7 +16,7 @@ Data is saved both locally and to the server when the player clicks the "save" b
 The local save data is saved to the persistent data path. the simulated cloud saves are saved in the "Raf_housing Server Backend" folder  
 
 **_________________________________________**
-- ![image](https://github.com/user-attachments/assets/e46b3b53-bdda-4b84-8c2d-e1c8b55b07b6)  
+# SUPER_COLE
 **_________________________________________**
                  
 # ASSIGNMENT TWO CLOUD COMPUTING

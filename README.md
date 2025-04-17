@@ -1,7 +1,7 @@
 # ASSIGNMENT ONE CLOUD COMPUTING
 #### Raf housing Saving
 
-## **NOTE: I will send TA Spencer the .env file through discord**
+## **NOTE: I will send TA Spencer the .envs file through discord**
 
 
 ## How to setup saving 
